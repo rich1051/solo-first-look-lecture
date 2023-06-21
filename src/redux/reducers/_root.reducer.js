@@ -13,4 +13,7 @@ const rootReducer = combineReducers({
   user, // will have an id and username if someone is logged in
 });
 
+// property shorthand notation:
+// { errors, user } instead of { errors: errors, user: user }
+
 export default rootReducer;
